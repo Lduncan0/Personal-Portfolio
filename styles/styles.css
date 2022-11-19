@@ -8,8 +8,8 @@
 
 /*Custom  Properties */
 :root {
-    --ff-primary: 'Times New Roman';
-    --ff-secondary: 'Comic Sans';
+    --ff-primary: 'Roboto Mono', monospace;
+    --ff-secondary: 'Roboto', sans-serif;
 
     --fw-reg: 300;
     --fw-bold: 900;
