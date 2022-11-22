@@ -163,6 +163,15 @@ header {
     z-index: 1000;
 }
 
+.nav-open .nav {
+    transform: translateX(0);
+}
+
+.nav-open .nav-toggle {
+    position: fixed;
+}
+
+
 .hamburger {
     display: block;
     position: relative;
@@ -172,8 +181,8 @@ header {
 .hamburger, 
 .hamburger::before,
 .hamburger::after{
-    background: var(--clr-dark);
-    width: 2em;
+    background: var(--clr-accent);
+    width: 2.5em;
     height: 3px;
     border-radius: 1em;
     transition: transform 250ms ease-in-out;
